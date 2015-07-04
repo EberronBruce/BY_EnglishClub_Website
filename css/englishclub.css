@@ -248,13 +248,26 @@ ul.tophead li:hover{
 
 @media (max-width: 767px) { 
 
+    .jumbotron {
+        padding: 0px;
+        padding-top: 35px;
+        padding-bottom: 30px;
+    }
+   
+    .container {
+        margin: 0px;
+        padding: 0px;
+    }
+    
     .navimg {
         width: 200px;
         height:21px;
     } 
     #smallscreentitle, #titleheader{
-        font-size:50px;
+        font-size:60px;
         padding-top:20px;
+        padding-left: 0px;
+        margin-left: 0px;
             
     }
     #headp{
@@ -264,6 +277,8 @@ ul.tophead li:hover{
     
     .homepage h1{
         font-size:40px;
+        margin-left: 0px;
+        padding-left: 0px;
     }
     
     .homepage p{
@@ -276,6 +291,7 @@ ul.tophead li:hover{
     
     #bottombtn {
         font-size:25px;
+        margin-bottom: 25px;
     }
     
     .lgbutton {
