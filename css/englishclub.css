@@ -1,0 +1,294 @@
+footer{
+    background-image: url("../images/background.jpg");
+    height: 100px;
+}
+.homepage {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom:50px;
+}
+
+.homepage p{
+    padding-bottom:25px;
+    padding-top: 25px;
+    font-size:20px;
+   
+}
+
+.panel-body p{
+    padding:0px;
+
+}
+
+.homepage h1 {
+    font-size: 50px;
+    padding-top:55px;
+    padding-bottom:25px;
+}
+
+.homepage h1, .homepage h2 {
+  /* font-family: 'Bad Script', cursive; */
+  font-family: 'Patrick Hand', cursive;
+}
+
+.jumbotron {
+    text-align: center; 
+    background-image: url("../images/background.jpg");
+    margin-bottom: 0px;
+    
+}
+
+
+.navbar {
+    background-color:#e3e3e3;
+    border-color: darkgoldenrod;
+}
+
+.redletter {
+    color: #FF0000;
+}
+
+.orangeletter {
+    color: #f0ad4e;
+}
+
+.blueletter {
+    color: #2aabd2;
+}
+
+.purbleletter {
+    color: #8a2be2;
+}
+.days {
+    font-weight: 700;
+}
+.tophead{
+    /* font-family: 'Bad Script', cursive;*/
+    font-family: 'Patrick Hand', cursive;
+}
+
+.tophead li{
+      background-color: beige;
+      border-radius:10px;
+      margin:0px 10px;
+}
+
+ul.tophead li:hover{
+    background-color:#e38d13;
+    border-radius:10px;
+}
+
+.btn {
+    /*font-family: 'Bad Script', cursive;*/
+    font-family: 'Patrick Hand', cursive;
+}
+
+.faimg{
+    padding-top:50px;
+}
+
+.lgbutton{
+    margin:0px 20px;
+    padding: 10px 25px;
+    
+}
+
+#scehedulespecial{
+    font-size:35px;
+}
+
+#navbutton:hover {
+     background-color:#e38d13;
+}
+
+#canvas1 {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right:auto;
+}
+#smallscreentitle {
+   /* font-family: 'Bad Script', cursive;*/
+   font-family: 'Patrick Hand', cursive;
+    font-size:100px;
+    margin-top:30px;
+    margin-bottom:0px;
+    padding-bottom:0px;
+        
+}
+#titleheader {
+    padding-top:0px;
+    margin-top:0px;
+    font-family: 'Norican', cursive;
+    font-size:100px; /*63px*/
+}
+#oneonone {
+    padding: 0px 50px;
+}
+
+#who{
+    background-color: beige;
+}
+
+#about{
+    background-color: #e5e5e5;
+}
+
+#schedules{
+    background-color: #CCCCCC;
+    padding-bottom:50px;
+}
+
+#signup{
+    background-color: beige;
+}
+
+#footerimg{
+    margin-top: 50px;
+}
+
+#headp{
+    font-size:25px;
+    color:black;
+    padding-bottom:0px;
+    margin-bottom:10px;
+}
+
+
+
+#bottombtn{
+    margin-top:-15px;
+    border-radius:25px;
+    font-size:35px;
+    padding:5px 25px;
+    background-color: #2aabd2;
+}
+
+#bottombtn:hover{
+    background-color: #e38d13;
+}
+
+#lang{
+      background-color:#e3e3e3;
+      border-radius:0px;
+      margin-left:0px;
+      margin-right:0px;
+      padding-left:0px;
+      padding-right:0px;
+}
+
+#lang img{
+    height:15px;
+    width:20px;
+}
+
+/*responsive styling*/
+
+
+
+
+
+/*----------------*/
+@media (max-width: 1200px) { 
+    
+    .tophead {
+        font-size:12px;
+    }
+    
+}
+@media (max-width: 1020px) { 
+    .navimg {
+        width: 200px;
+        height:21px;
+    } 
+    #smallscreentitle, #titleheader{
+        font-size:63px
+    }
+    #headp{
+        font-size:25px;
+    }
+    
+    
+
+}
+
+@media (max-width: 991px) { 
+    .navimg {
+        width: 200px;
+        height:21px;
+    } 
+    #smallscreentitle, #titleheader{
+        font-size:63px
+    }
+    #headp{
+        font-size:25px;
+    }
+     .homepage h1{
+        font-size:45px;
+    }
+    
+    .homepage p{
+        font-size:15px;
+    }
+    
+    #scehedulespecial{
+        font-size:30px;
+    }
+    
+    #bottombtn {
+        font-size:30px;
+    }
+    
+    .tophead {
+        font-size:8px;
+    }
+
+}
+
+@media (max-width: 767px) { 
+
+    .navimg {
+        width: 200px;
+        height:21px;
+    } 
+    #smallscreentitle, #titleheader{
+        font-size:50px;
+        padding-top:20px;
+            
+    }
+    #headp{
+        font-size:20px;
+        padding-top:0px;
+    }
+    
+    .homepage h1{
+        font-size:40px;
+    }
+    
+    .homepage p{
+        font-size:15px;
+    }
+    
+    #scehedulespecial{
+        font-size:25px;
+    }
+    
+    #bottombtn {
+        font-size:25px;
+    }
+    
+    .lgbutton {
+        margin-top: 10px;
+    }
+    
+    
+}
+    
+    
+
+
+
+
+
+

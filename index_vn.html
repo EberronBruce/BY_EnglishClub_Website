@@ -1,0 +1,228 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="Bruce & Yen's English Club">
+    <meta name="author" content="Bruce Burges">
+    <meta name="keywords" content="English Club Vietnam,English Class,
+          English HCMC,Englis Class HCMC, Native English, American English,
+          adult English, Vietnam adult English,English Club,English">
+    <link rel="icon" href="images/favicon.ico">
+ 
+
+    <!---Fonts-->
+    <link href='http://fonts.googleapis.com/css?family=Patrick+Hand&subset=latin,vietnamese' rel='stylesheet' type='text/css'>
+   <!--<link href='http://fonts.googleapis.com/css?family=Bad+Script' rel='stylesheet' type='text/css'>-->
+   <link href='http://fonts.googleapis.com/css?family=Norican' rel='stylesheet' type='text/css'>
+   <link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,400italic' rel='stylesheet' type='text/css'>
+   <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+    <title>Bruce &amp; Yen's English Club</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/englishclub.css" rel="stylesheet">
+
+    <script type="text/javascript" src="http://s3.amazonaws.com/codecademy-content/courses/hour-of-code/js/alphabet.js"></script>
+  </head>
+   
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button id="navbutton" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+            <a class="navbar-brand" href="#"><img class="navimg" src="images/navtitle.png" alt="Bruce & Yen's English Club"></a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right tophead">
+            <li><a href="#who">Chúng Ta Là Ai</a></li>
+            <li><a href="#about">Giới thiệu về Club</a></li>
+            <li><a href="#schedules">Lịch lớp</a></li>
+            <li><a href="#signup">Đăng Ký</a></li>
+            <li><a href="http://bruceyenenglishclub.proboards.com/" target="_blank">Forums</a></li>
+            <li id="lang"><a href="index.html"><img src="images/eng.png" alt="English" title="English"></a></li>
+          </ul> 
+            <div> </div>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron homepage">
+      <div class="container">
+          
+          <canvas id="canvas1" ></canvas>
+          <h1 id="smallscreentitle" class="tophead">
+              <span class="redletter">B</span><span class="orangeletter">r</span><span class="blueletter">u</span><span class="purbleletter">c</span><span class="redletter">e</span>&nbsp;<span class="orangeletter">&AMP;</span>
+              <span class="blueletter">Y</span><span class="purbleletter">e</span><span class="redletter">n</span><span class="orangeletter">'</span><span class="blueletter">s</span>
+          </h1> 
+          <h1 id="titleheader">English Club</h1>
+          
+          <p id="headp" >
+              Bạn đang sống tại thành phố Hồ Chí Minh? Bạn đang làm việc tại 
+              thành phố Hồ Chí Minh? Bạn muốn cải thiện trình độ tiếng Anh? 
+              Chúng tôi mở một câu lạc bộ tiếng Anh với môi trường thân thiện, 
+              vui vẻ, thoải mái tạo cơ hộ cho bạn rèn luyện, nâng cao trình độ 
+              của mình với giảng viên người Mỹ.
+          </p>
+        <br />
+         <a class="btn btn-primary btn-lg lgbutton" 
+              href="http://bruceyenenglishclub.proboards.com/" 
+              target="_blank" role="button">Di đến Forum &raquo;</a> 
+       
+        <a  id="lgsign" class="btn btn-primary btn-lg lgbutton" 
+              href="https://docs.google.com/forms/d/1hWwaVxE6LkrEtxj3hf6-KGKHofz3Ip1n1-juLqmZi8Q/viewform?usp=send_form" 
+              target="_blank" role="button">Đăng Ký &raquo;</a>
+      </div>
+    </div>
+    
+    
+    <div id="who">
+        <div class="container homepage">
+           <span class="fa-stack fa-5x faimg">
+           <i class="fa fa-square-o fa-stack-2x"></i>
+           <i class="fa fa-pencil fa-stack-1x"></i>
+           </span>
+            <h1>Chúng Tôi Là Ai</h1>
+            <p>Chúng tôi là một cặp vợ chồng sống tại thành phố Hồ Chí Minh. 
+                Chúng tôi đang mở lớp tiếng anh giao tiếp cho người đi làm tại 
+                nhà của chúng tôi. Giáo viên hướng dẫn là người Mỹ. Anh đang 
+                làm việc cho một công ty của Đức về phát triển phần mềm. Anh có 
+                chứng chỉ TESOL (Teaching English to Speakers of Other Langauges) 
+                cho tiếng Anh thương mại Chuyên ngành. Anh đã giảng dạy tại Đại 
+                học Kinh tế Tài chính thành phố Hồ Chí Minh.  <br><br>
+                Trợ giảng người Việt luôn có mặt trong lớp trong trường hợp bạn 
+                cần giúp đỡ.<br><br>
+                Chúng tôi đều là kỹ sư, có kiến thức rộng về nhiều lĩnh vực kỹ 
+                thuật, văn hóa, kinh doanh, âm nhạc, nghệ thuật… Chúng tôi sẽ 
+                truyền đạt đến các bạn kiến thức ở nhiều lĩnh vực khác nhau bằng 
+                tiếng anh.
+
+            </p>
+        </div>
+    </div>
+    
+    <div id="about">
+        <div class="container homepage">
+            <span class="fa-stack fa-5x faimg">
+           <i class="fa fa-square-o fa-stack-2x"></i>
+           <i class="fa fa-university fa-stack-1x"></i>
+           </span>
+            <h1>Giới thiệu về Club</h1>
+            <p> Lớp học được tổ chức dưới dạng câu lạc bộ tạo môi trường thân 
+                thiện, thoải mái cho bạn luyện tập, học, và giao tiếp. Các chủ 
+                đề xoay quanh cuộc sống hằng ngày. Các bài học được tổ chức dưới 
+                các hình thức khác nhau rất thú vị. Giáo viên nhiệt tình, vui
+                tính sẽ luyện khả năng tự tin nói tiếng anh, chỉnh sửa phát âm, 
+                tăng vốn từ vựng cho học viên. Với những bạn chưa thực sự tự 
+                tin và đủ vốn từ để giao tiếp với giáo viên bản xứ, sẽ được sự 
+                giúp đỡ của trợ giảng vui tính người Việt.</p><p>Lớp học không 
+                quá 10 học viên. Thỉnh thoảng nếu học viên thích thú sẽ tổ chức 
+                picnic giao lưu tại các công viên ngoài trời, hoặc BBQ party nhỏ 
+                tại nhà để tạo môi trường real English cho mọi người.</p>
+        </div>
+    </div>
+    
+    
+    <div id="schedules">
+        <div class="container homepage">
+           <span class="fa-stack fa-5x faimg">
+           <i class="fa fa-square-o fa-stack-2x"></i>
+           <i class="fa fa-clock-o fa-stack-1x"></i>
+           </span>
+            <h1>Lịch lớp</h1>
+            <p id="scehedulespecial">Chúng tôi hiện đang mở hai lớp.</p>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="panel panel-success">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Lớp nâng cao</h3>
+                        </div>
+                    <div class="panel-body">
+                        <p class="days">Thứ Ba-Thứ Năm-Thứ Bảy</p>
+                        <p>6:00 p.m. to 7:30 p.m.</p>
+                    </div>
+                </div>
+            </div>
+                <div class="col-md-6">
+                    <div class="panel panel-success">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Lớp căn bản</h3>
+                        </div>
+                    <div class="panel-body">
+                        <p class="days">Thứ Ba-Thứ Năm-Thứ Bảy</p>
+                        <p>7:30 p.m. to 9:00 p.m.</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="signup">    
+        <div class="container homepage">
+          <h1>Đăng Ký</h1>
+          
+          <div class="row">
+            <div class="col-md-4">
+               <span class="fa-stack fa-5x">
+               <i class="fa fa-square-o fa-stack-2x"></i>
+               <i class="fa fa-graduation-cap fa-stack-1x"></i>
+               </span>
+              <h2>Lớp nâng cao </h2>
+              <p> Nếu bạn quan tâm để đăng ký nhấp vào nút dưới đây. Lệ phí cho 
+                  các lớp học này là 1.500.000 đồng/tháng.</p>
+            </div>
+            <div class="col-md-4">
+                <span class="fa-stack fa-5x">
+                <i class="fa fa-square-o fa-stack-2x"></i>
+                <i class="fa fa-users fa-stack-1x"></i>
+                </span>
+              <h2>Lớp căn bản </h2>
+              <p> Nếu bạn quan tâm để đăng ký nhấp vào nút dưới đây. Lệ phí cho 
+                  các lớp học này là 1.500.000 đồng/tháng.</p>
+             
+           </div>
+            <div class="col-md-4">
+              <span class="fa-stack fa-5x">
+              <i class="fa fa-square-o fa-stack-2x"></i>
+              <i class="fa fa-user-plus fa-stack-1x"></i>
+              </span>
+              <h2>Lớp một học viên</h2>
+             <p> Nếu bạn quan tâm để đăng ký nhấp vào nút dưới đây. Lệ phí cho 
+                 các lớp học này là 600.000 đồng / giờ</p>
+             
+            </div>
+          </div>
+           <a id="bottombtn" class="btn btn-default" href="https://docs.google.com/forms/d/1hWwaVxE6LkrEtxj3hf6-KGKHofz3Ip1n1-juLqmZi8Q/viewform?usp=send_form"
+                    target="_blank" role="button">Đăng Ký &raquo;</a>
+        </div>
+    </div> <!-- /container -->
+    <footer>
+        <p><img id="footerimg" class="navimg" src="images/navtitle.png" alt="Bruce & Yen's English Club"></p>
+    </footer>
+    
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/codecademybubbles.js"></script>
+    <script type="text/javascript" src="js/bubblename.js"></script>
+    <script type="text/javascript" src="js/windowsize.js"></script>
+   
+  </body>
+</html>
